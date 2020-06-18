@@ -1,7 +1,7 @@
-require "cli/project/version"
+require "ESPN/NFL/version"
 
-module Cli
-  module Project
+module ESPN
+  module NFL
     class Error < StandardError; end
     # Your code goes here...
   end

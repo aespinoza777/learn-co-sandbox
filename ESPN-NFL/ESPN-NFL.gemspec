@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "cli/project/version"
+require "ESPN/NFL/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "cli-project"
-  spec.version       = Cli::Project::VERSION
+  spec.name          = "ESPN-NFL"
+  spec.version       = ESPN::NFL::VERSION
   spec.authors       = ["'Antonio Espinoza'"]
   spec.email         = ["'aespinoza777@gmail.com'"]
 

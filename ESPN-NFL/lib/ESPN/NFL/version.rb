@@ -1,5 +1,5 @@
-module Cli
-  module Project
+module ESPN
+  module NFL
     VERSION = "0.1.0"
   end
 end
